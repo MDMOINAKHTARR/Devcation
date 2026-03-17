@@ -1,0 +1,120 @@
+.section {
+  background: var(--bg-main);
+  border-bottom: 4px solid var(--border-dark);
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  align-items: start;
+}
+
+.sidebar {
+  position: sticky;
+  top: var(--nav-h);
+  padding: 48px 32px;
+  border-right: 4px solid var(--border-dark);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.sideTitle {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(36px, 4vw, 48px);
+  font-weight: 700;
+  line-height: 0.95;
+  color: var(--text-main);
+  margin-bottom: 24px;
+  word-wrap: break-word;
+}
+
+.sideDesc {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.faqDeer {
+  margin-top: auto;
+  align-self: center;
+  width: 100%;
+  max-width: 240px;
+  transform: scaleX(-1) translateY(48px); /* Flip to look towards content and shift down */
+  pointer-events: none;
+}
+
+.faqDeer img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  border-bottom: 4px solid var(--border-dark);
+}
+
+.trigger {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 32px;
+  background: transparent;
+  border: none;
+  text-align: left;
+  cursor: none;
+  gap: 16px;
+  transition: background 0.2s;
+}
+.trigger:hover { background: var(--bg-secondary); }
+.trigger:focus-visible { outline: 3px solid var(--accent-primary); outline-offset: -3px; }
+
+.q {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.icon {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--border-dark);
+  flex-shrink: 0;
+  transition: transform 0.3s ease, color 0.2s;
+  display: inline-block;
+}
+.iconOpen {
+  transform: rotate(45deg);
+  color: var(--accent-primary);
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease;
+}
+.answerOpen { max-height: 300px; }
+
+.answer p {
+  padding: 0 32px 24px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .inner { grid-template-columns: 1fr; }
+  .sidebar { position: static; padding: 32px 24px; border-right: none; border-bottom: 4px solid var(--border-dark); }
+  .sideTitle { font-size: 40px; }
+  .trigger { padding: 20px 24px; }
+  .answer p { padding: 0 24px 20px; }
+}

@@ -1,0 +1,28 @@
+.strip {
+  overflow: hidden;
+  background: var(--accent-secondary);
+  border-top: 4px solid var(--border-dark);
+  border-bottom: 4px solid var(--border-dark);
+  white-space: nowrap;
+  padding: 16px 0;
+}
+
+.track {
+  display: inline-flex;
+  animation: marquee 30s linear infinite;
+}
+
+.text {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--border-dark);
+  text-transform: uppercase;
+  padding-right: 48px;
+}
+
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
