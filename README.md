@@ -9,31 +9,28 @@ A premium, ground-up redesign of the Devcation hackathon landing page, featuring
 ## ✨ Core Features & Innovation
 
 ### 1. 🏗️ Editorial Brutalist Design
-Unlike generic AI-generated templates, Devcation 2026 uses a raw, high-contrast aesthetic:
-- **Typography**: Bold headlines in *Bebas Neue* paired with clean *DM Sans* body text.
-- **Visuals**: Hard 2px borders, SVG grain textures, and a warm charcoal/amber/paper palette.
-- **Dynamic UX**: Custom amber blend-mode cursor and staggered scroll-reveal animations.
+![Hero Section](./public/assets/readme/hero.png)
+*The Hero section establishes the editorial-brutalist aesthetic with bold Bebas Neue typography, a high-contrast grid layout, and a prominent call-to-action.*
 
 ### 2. ⏳ Multi-Phase Countdown Timer
-A context-aware countdown that switches between registration, submission, mentorship, and finale phases. It includes a visual progress bar and opt-in milestone reminders to keep participants on track.
+![Countdown Section](./public/assets/readme/countdown.png)
+*A context-aware timer that tracks Registration, Submission, Mentorship, and Finale phases, complete with a visual progress bar and custom milestone reminders.*
 
 ### 3. 🎯 Interactive Track Matcher Quiz
-A guided experience that helps participants find their ideal track (TigerGraph, Hack 'N' Solve, Sustainability, or Duality) through a semantic logic quiz, directly reducing participant confusion.
+![Track Explorer Section](./public/assets/readme/tracks.png)
+*Helping participants find their ideal arena through a semantic logic quiz, specifically designed to guide first-time hackers toward the right challenge.*
 
 ### 4. 🎮 Spatial UI & Physics (Matter.js)
 The landing page isn't just for reading—it's for playing.
 - **Debris Field Hero**: Flickable fragments of the low-poly mascot and Delhi Gate.
 - **Physics-Aware Cards**: Track cards that collide, bounce, and react to user interaction.
-- **Gravity-Based Skill Matrix**: A "Ball-Pit" visualization of skill demand.
 
-### 5. 🤖 DevBot FAQ Assistant
+### 5. 🛠️ Mission Control Live Hub
+![Mission Control Section](./public/assets/readme/mission_control.png)
+*A real-time command center featuring live registration statistics, a community Team Finder board, and a skill demand matrix to inform team building.*
+
+### 6. 🤖 DevBot FAQ Assistant
 A rule-based chatbot (ready for LLM integration) that provides instant answers to common questions about tracks, eligibility, and logistics, ensuring 24/7 support.
-
-### 6. 🛠️ Mission Control Live Hub
-A real-time dashboard featuring:
-- Animated registration counters.
-- Team Finder Board with skill-demand tagging.
-- Quick-action links for registration and documentation.
 
 ## 🚀 Tech Stack
 
