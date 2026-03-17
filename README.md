@@ -48,7 +48,7 @@ A real-time dashboard featuring:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/MDMOINAKHTARR/Devcation.git
-   cd Devcation/devcation-app
+   cd Devcation
    ```
 
 2. **Install dependencies**:
