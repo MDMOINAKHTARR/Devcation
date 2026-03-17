@@ -32,8 +32,8 @@ export default function HeroSection() {
           </p>
 
           <div className={styles.ctas}>
-             <a href="#tracks" className={styles.primaryBtn} data-cursor>EXPLORE TRACKS</a>
-             <a href="#timeline" className={styles.secondaryBtn} data-cursor>VIEW AGENDA</a>
+             <a href="https://unstop.com/hackathons/devcation-hack-n-solve-iit-delhi-1659241" target="_blank" rel="noopener noreferrer" className={styles.primaryBtn} data-cursor>REGISTER NOW</a>
+             <a href="#tracks" className={styles.secondaryBtn} data-cursor>EXPLORE TRACKS</a>
           </div>
 
           {/* Marquee */}

@@ -55,7 +55,7 @@ export default function Navbar() {
       </ul>
 
       <div className={styles.actions}>
-        <a href="https://unstop.com" target="_blank" rel="noopener noreferrer" className={styles.navBtn} data-cursor>
+        <a href="https://unstop.com/hackathons/devcation-hack-n-solve-iit-delhi-1659241" target="_blank" rel="noopener noreferrer" className={styles.navBtn} data-cursor>
           REGISTER
         </a>
 

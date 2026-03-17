@@ -31,7 +31,7 @@ export default function Footer() {
             © 2026 Devcation — Designed for Devcation Hack &apos;N&apos; Solve, IIT Delhi
           </span>
         </div>
-        <a href="https://unstop.com" target="_blank" rel="noopener noreferrer" className={styles.registerBlock} data-cursor>
+        <a href="https://unstop.com/hackathons/devcation-hack-n-solve-iit-delhi-1659241" target="_blank" rel="noopener noreferrer" className={styles.registerBlock} data-cursor>
           <span className={styles.registerText}>REGISTER NOW</span>
           <span className={styles.registerArrow}>→</span>
         </a>

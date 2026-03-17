@@ -10,7 +10,7 @@ const rules: [RegExp, string][] = [
   [/deadline|when|last date|time|close/i,
     '📅 Key deadlines (all IST):\n• Registration: Apr 2, 2026 — 11:59 PM\n• Submission: Apr 4, 2026 — 11:59 PM\n• Mentorship Round: Apr 5–7\n• Grand Finale: Apr 12, 2026 @ IIT Delhi'],
   [/register|how to join|sign up|form|enroll/i,
-    '✅ Register on Unstop — search "Devcation Hack \'N\' Solve". Registration is free! Deadline is Apr 2, 2026.\n\nunstop.com → Search "Devcation 2026"'],
+    '✅ Register on Unstop — search "Devcation Hack \'N\' Solve". Registration is free! Deadline is Apr 2, 2026.\n\nhttps://unstop.com/hackathons/devcation-hack-n-solve-iit-delhi-1659241'],
   [/prize|reward|money|cash|win|₹/i,
     '🏆 Prize breakdown:\n• 1st Place: ₹75,000\n• 2nd Place: ₹40,000\n• 3rd Place: ₹20,000\n• Total pool: ₹1,50,000\n\nTigerGraph Premium Track has a separate prize pool announced separately.'],
   [/submit|submission|github|ppt|demo|project/i,

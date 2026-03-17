@@ -288,7 +288,7 @@ export default function MissionControl() {
 
             <div className={styles.quickActions}>
               <p className={`${styles.panelLabel} mono`} style={{ marginBottom: 12 }}>QUICK ACTIONS</p>
-              <a href="https://unstop.com" target="_blank" rel="noopener" className={`${styles.actionBtn} ${styles.actionBtnPrimary}`} data-cursor>REGISTER NOW</a>
+              <a href="https://unstop.com/hackathons/devcation-hack-n-solve-iit-delhi-1659241" target="_blank" rel="noopener" className={`${styles.actionBtn} ${styles.actionBtnPrimary}`} data-cursor>REGISTER NOW</a>
               <a href="https://tigergraph.com" target="_blank" rel="noopener" className={styles.actionBtn} data-cursor>TIGERGRAPH TRACK DOCS</a>
               <a href="mailto:dscigdtuw@gmail.com" className={styles.actionBtn} data-cursor>CONTACT ORGANIZERS</a>
             </div>
