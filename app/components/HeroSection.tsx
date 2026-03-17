@@ -60,7 +60,7 @@ export default function HeroSection() {
           </div>
           
           <div className={`${styles.statBlock} ${styles.bgOrange}`}>
-            <span className={styles.statNum}>₹5M</span>
+            <span className={styles.statNum}>₹1.5Lakh</span>
             <span className={styles.statLabel}>PRIZE POOL</span>
             <div className={styles.blockIcon}>🏆</div>
           </div>
